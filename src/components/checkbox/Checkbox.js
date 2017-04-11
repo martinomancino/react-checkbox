@@ -4,7 +4,7 @@ const Checkbox = ({checked, onStateChange}) => {
   return (
     <div>
       <div className="checkbox" data-checked={checked} onClick={onStateChange}></div>
-      <label>How Cool!!!</label>
+      <label>Matt has a bad taste!</label>
     </div>
   )
 }

@@ -17,7 +17,6 @@ class CheckboxContainer extends Component {
   }
 
   render() {
-
     return (
       <div>
         <h5>Amazing React Checkbox</h5>
