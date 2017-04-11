@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CheckboxContainer from './components/checkbox/CheckboxContainer';
+import CheckboxContainer from './containers/CheckboxContainer';
 import logo from './logo.svg';
 import './App.css';
 

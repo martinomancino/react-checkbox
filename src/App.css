@@ -21,3 +21,34 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/* Checkbox */
+.checkbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #9012FE;
+  border-radius: 3px;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.checkbox[data-checked="true"] {
+  background-color: #9012FE;
+}
+
+.checkbox:before {
+  content: '✔';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+label {
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 10px;
+  vertical-align: top;
+}
